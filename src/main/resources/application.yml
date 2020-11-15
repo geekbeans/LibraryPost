@@ -1,0 +1,21 @@
+#\u9996\u5148\u914D\u7F6E\u540E\u7AEF\u7AEF\u53E3
+server:
+  port: 8181
+
+#\u914D\u7F6E\u6570\u636E\u5E93\u4FE1\u606F
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/library?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+#\u914D\u7F6Ejpa\u4FE1\u606F
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+
+
